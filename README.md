@@ -1,0 +1,21 @@
+俄语论文写作 | 在俄罗斯待了10年，我把论文的坑都喂给了AI
+适合俄罗斯курсовая（课程论文）、диплом（毕业论文）、диссертация（学位论文）、摘要、答辩PPT逐字稿的格式和文字打磨
+
+具体功能：
+1. 按ГОСТ 7.32标准自动排版逻辑检查
+不是随便套个中文/英文论文模版就能用的。俄罗斯高校认的是ГОСТ 7.32-2017（还有院系自己的方法手册），从字体（Times New Roman 14号）、行距（1.5倍）、页边距（左3cm右1-1.5cm）到段首缩进1.25cm，一个都不能错，错了导师连内容都不看直接打回。
+2. 结构顺序不是自己想怎么排就怎么排
+введение（前言）里必须按顺序出现：актуальность（选题依据）→объект（研究对象）→предмет（研究主体）→цель和задачи（目的和任务），少一项都算不合格，这个顺序中国论文和英文论文都不这么写。
+3. 文献引用格式单独一套
+参考文献不是随便APA/MLA糊弄，是ГОСТ Р 7.0.5，俄语文献和外语文献的著录格式、页码标注方式都有自己的规矩，直接抄别的国家的引用格式过不了查重和格式审查。
+4. 保留你自己的学术语气，不是让AI代写
+只改格式、逻辑衔接、俄语/英语表达是否地道，核心论点、数据、你自己的观点一律不动，答辩的时候还是你自己的东西，你能讲清楚。
+安装方法：
+1. claude：`git clone https://github.com/你的用户名/ru-academic-writer ~/.claude/skills/ru-academic-writer`
+2. codex：mkdir -p ~/.codex/skills
+git clone https://github.com/你的用户名/ru-academic-writer ~/.codex/skills/ru-academic-writer
+
+推荐调用指令：
+Use the ru-academic-writer skill to check and polish the following coursework draft according to ГОСТ 7.32-2017 formatting and structure requirements. Fix citation format per ГОСТ Р 7.0.5. Do not change my arguments, data, or conclusions — only formatting, structure order, and language fluency.
+
+请用ru-academic-writer的规则检查以下课程论文草稿，按ГОСТ 7.32-2017的格式和结构要求（前言四要素顺序、字体行距、段落缩进）修改，参考文献按ГОСТ Р 7.0.5调整。不要改变我的论点、数据和结论，只调整格式、结构顺序和语言表达。
