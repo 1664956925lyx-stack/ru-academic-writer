@@ -10,10 +10,6 @@
 参考文献不是随便APA/MLA糊弄，是ГОСТ Р 7.0.5，俄语文献和外语文献的著录格式、页码标注方式都有自己的规矩，直接抄别的国家的引用格式过不了查重和格式审查。
 4. 保留你自己的学术语气，不是让AI代写
 只改格式、逻辑衔接、俄语/英语表达是否地道，核心论点、数据、你自己的观点一律不动，答辩的时候还是你自己的东西，你能讲清楚。
-安装方法：
-1. claude：`git clone https://github.com/你的用户名/ru-academic-writer ~/.claude/skills/ru-academic-writer`
-2. codex：mkdir -p ~/.codex/skills
-git clone https://github.com/你的用户名/ru-academic-writer ~/.codex/skills/ru-academic-writer
 
 推荐调用指令：
 Use the ru-academic-writer skill to check and polish the following coursework draft according to ГОСТ 7.32-2017 formatting and structure requirements. Fix citation format per ГОСТ Р 7.0.5. Do not change my arguments, data, or conclusions — only formatting, structure order, and language fluency.
